@@ -1,4 +1,3 @@
-
 var myDatabase = [
     { name: 'James Burton', email: 'James@gmail.com', age: 25 },
     { name: 'Mark Robinson', email: 'Mark@gmail.com', age: 30 },
@@ -89,7 +88,7 @@ var myDatabase = [
             generateList();
         }
 
-        for(i=0; i > buttons.length;i++) {
+        for(i=0; i < buttons.length;i++) {
             buttons[i].addEventListener('click', function(e){
                deleteThis(this); 
             })
